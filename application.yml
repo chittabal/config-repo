@@ -1,6 +1,19 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: global-config
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   client:
