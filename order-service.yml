@@ -19,4 +19,4 @@ eureka:
 
 logging:
   level:
-    com.example.orderservice: DEBUG
+    com.chitta.orderservice: DEBUG
